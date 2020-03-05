@@ -1,0 +1,15 @@
+React Enviroment Setup & Run
+
+1. Install Node Modules to run this App: -- npx create-react-app my-app
+2. Past & Replace all file in the folder except Node Modules Folder.
+3. As I'm using bootstrap and Router - So you need to install these package or you can check all packages in package.json
+2. Start app by using this command - >      npm start
+
+
+App Instruction
+
+1. Login using id and password: - rohit@gmail.com && rohit@12345
+2. It will redirect you to Homepage and then you can paste Web/Url in the textbox to load webpage withtin Iframe.
+3. Logout will throw you back on the Login page.
+
+That' all.....
