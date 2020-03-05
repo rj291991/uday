@@ -43,7 +43,7 @@ export default class Home extends Component {
                                 <input type="text" className="form-control loadurl" id="view1" onChange={(e) => this.loadView(e, 'view1')} />
                             </div>
                             <div className="col-sm-4 mb-2">
-                                <input type="text" className="form-control loadurl" id="view2" onChange={(e) => this.loadView(e, 'view2')} onKeyPress={this.logout}/>
+                                <input type="text" className="form-control loadurl" id="view2" onChange={(e) => this.loadView(e, 'view2')} />
                             </div>
                             <div className="col-sm-2 mb-2">
                                 <input type="button" defaultValue="Logout" class='btn btn-danger' onClick={this.logout} />
