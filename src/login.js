@@ -9,8 +9,6 @@ export default class Login extends Component {
             password: '',
             isLogged: false,
             errorMsg:''
-
-
         }
     }
 
