@@ -1,0 +1,16 @@
+name: My First Pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Print Message
+        run: echo "Pipeline is running successfully!"
